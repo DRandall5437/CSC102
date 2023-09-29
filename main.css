@@ -1,0 +1,29 @@
+/* this is the body selector - these styles will affect the whole page
+   setting the background-color property to the value of gray-ish
+   setting the text color (foreground) property to navy-ish */
+body{
+    background-color: rgb(243, 149, 149);
+    color: rgb(0, 0, 0);
+    text-align: center; /*i add this for the game*/
+}
+/*this is the nav selector anything in between the <nav> and </nav> tags will be affected by these styles*/
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+/* this is footer selector - generally the footer will be at the bottom of the page */
+footer{
+    text-align: center;
+    margin-right: 200px
+}
+/* anything in between the header tags will be affected by */
+header{
+    text-align: center;
+}
+/* the image with an id of memeImage will be affected by this style 
+#memeImage{
+    margin-right:200px;  When this was active it makes image look worse
+} */
