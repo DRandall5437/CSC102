@@ -2,7 +2,7 @@
    setting the background-color property to the value of gray-ish
    setting the text color (foreground) property to navy-ish */
 body{
-    background-color: rgb(243, 149, 149);
+    background-color: rgb(255, 255, 0);
     color: rgb(0, 0, 0);
     text-align: center; /*i add this for the game*/
 }
