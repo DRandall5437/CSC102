@@ -27,3 +27,16 @@ header{
 #memeImage{
     margin-right:200px;  When this was active it makes image look worse
 } */
+/* Changes .btn*/
+.btn{
+    /*changes button color to whitesmoke*/
+    background-color:whitesmoke;
+    /*add space between each button*/
+    margin:1rem;
+/*Changes the size of the button*/
+    padding:2rem 4rem;
+/*Changes the curser when hovering over the button*/
+    cursor:pointer;
+/*Changes the font size of the buttons text*/
+    font-size:24px;
+}
