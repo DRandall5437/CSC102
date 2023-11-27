@@ -1,0 +1,43 @@
+<!-- Devin Randall 11-26-23
+This tells the browser that the page is HTMLS-->
+<!DOCTYPE html>
+<!-- HTML tag is required, set the language to en for English-->
+<html lang="en">
+<!-- The head section is for the browser and search engines primarily-->
+<head>
+    <!-- This page can support basically any character in any language -->
+    <meta charset="UTF-8">
+    <!-- Keep this tag so the website will look good on desktop or mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The text that will appear in the browser tab
+        Keep it short, sweet and descriptive-->
+    <title>Guess the random number</title>
+
+    <script src="guesser.js"></script>
+        <!-- Add a link to css file-->
+       <link rel="stylesheet" href="guesser.css">
+</head>
+<!-- All of our page content should go here -->
+<body>
+    <!--Add the page heading = the page title, 1 and only 1 H1 per page-->
+    <header>
+        <h1> Guess the random number</h1>
+    </header>
+   
+    <p>
+        <!--prompts user for a number -->
+        Input a number between 1 and 15
+        <br>
+        <br>
+         <!-- space for user to input-->
+        <input type="number" id="userInput" value=''>
+        <!--adds button to check if the number matches the random number-->
+        <button onclick="guessingGame();">Guess number</button>
+         <div id="guessingGame"></div>
+
+    </p>
+    <footer>
+
+    </footer>
+</body>
+</html>

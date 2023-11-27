@@ -1,0 +1,17 @@
+/* this is the body selector - these styles will affect the whole page
+   setting the background-color property to the value of gray-ish
+   setting the text color (foreground) property to navy-ish */
+   body{
+    background-color: rgb(55, 255, 245);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:fantasy;
+    font-size: 20px; 
+}
+/*Every thing hear affects the header*/
+header{
+    text-align: center;
+    color: rgb(209, 104, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
