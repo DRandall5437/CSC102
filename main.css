@@ -40,3 +40,19 @@ header{
 /*Changes the font size of the buttons text*/
     font-size:24px;
 }
+/* changes table, td, tr tags*/
+table, td, tr, th{
+    /*makes the border size and color*/
+    border: 3px solid black;
+    /*make the inner lines*/
+    border-collapse: collapse;
+    /*makes the table the full width of webpage*/
+    width: 100%;
+}
+/*changes td, tr, and th tags*/
+td, tr,th{
+    /*makes the columns the same size*/
+    width: 25%;
+    /*changes font size*/
+    font-size: 25px;
+}
