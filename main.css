@@ -2,31 +2,34 @@
    setting the background-color property to the value of gray-ish
    setting the text color (foreground) property to navy-ish */
 body{
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(55, 255, 245);
     color: rgb(0, 0, 0);
     text-align: center; /*i add this for the game*/
+    font-family: fantasy;
+    font-size: 25px;
+}
+header{
+    color: rgb(209, 104, 0);
+    text-align: center;
 }
 /*this is the nav selector anything in between the <nav> and </nav> tags will be affected by these styles*/
 nav{
+    text-align: left;
     height: 600px;
     width: 200px;
     float: left;
-    padding: 5px;
-    line-height: 30px;
+    padding: 2px;
 }
 /* this is footer selector - generally the footer will be at the bottom of the page */
 footer{
     text-align: center;
-    margin-right: 200px
+    margin-right: 200px;
+    color: white;
 }
 /* anything in between the header tags will be affected by */
 header{
     text-align: center;
-}
-/* the image with an id of memeImage will be affected by this style 
-#memeImage{
-    margin-right:200px;  When this was active it makes image look worse
-} */
+} 
 /* Changes .btn*/
 .btn{
     /*changes button color to whitesmoke*/

@@ -1,5 +1,5 @@
 /*gets the sound from the corrisponding name and displays the name on button*/
-const sounds = ['Horn', 'Splat', 'Coaster Scream', 'Explosion']
+const sounds = ['Horn', 'Splat', 'Coaster Scream', 'Explosion', '7 Days Later', 'Bell']
 
 /*the function that tells the button to work*/
 sounds.forEach(sound => {
